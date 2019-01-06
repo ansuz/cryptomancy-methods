@@ -20,7 +20,7 @@ Methods.shuffle = function (die, B) {
 // https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Sattolo's_algorithm
 
 // given a list of elements
-// generate a shuffled copy of the list
+// generate a shuffled copy of the list FIXME this is in place
 // where no element occupies its original position in the array
 Methods.perturb = function (die, B) {
     var i = B.length;
